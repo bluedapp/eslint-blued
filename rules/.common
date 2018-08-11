@@ -41,7 +41,7 @@ rules:
     - 2
     - always
   object-curly-newline: 0
-  camelcase: 0
+  camelcase: 2
   class-methods-use-this: 0
   dot-location:
     - 2
@@ -68,3 +68,6 @@ rules:
   no-unexpected-multiline: 2
   no-var: 2
   no-console: 0
+  no-unused-vars:
+    - 2
+    - argsIgnorePattern: '^_'
