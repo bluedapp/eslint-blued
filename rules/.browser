@@ -1,0 +1,4 @@
+rules:
+  no-alert: 0
+  no-restricted-globals: 0
+  no-script-url: 2

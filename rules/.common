@@ -1,0 +1,70 @@
+rules:
+  max-len: 
+    - 2
+    - code: 80
+  consistent-return: 0
+  semi: 
+    - 2
+    - never
+  linebreak-style:
+    - 2
+    - unix
+  indent:
+    - 2
+    - 2
+  quotes:
+    - 2
+    - single
+    - avoidEscape: true
+      allowTemplateLiterals: true
+  comma-style:
+    - 2
+    - last
+  one-var:
+    - 2
+    - never
+  arrow-parens:
+    - 2
+    - as-needed
+  comma-dangle:
+    - 2
+    - always-multiline
+  prefer-const:
+    - 2
+    - destructuring: all
+  eqeqeq: 
+    - 2
+    - allow-null
+  array-callback-return: 2
+  space-before-function-paren: 0
+  object-curly-spacing:
+    - 2
+    - always
+  object-curly-newline: 0
+  camelcase: 0
+  class-methods-use-this: 0
+  dot-location:
+    - 2
+    - property
+  dot-notation:
+    - 2
+  eol-last: 0
+  no-inline-comments: 2
+  no-confusing-arrow: 0
+  no-debugger: 1
+  no-else-return: 0
+  no-extra-boolean-cast: 0
+  no-lone-blocks: 2
+  no-nested-ternary: 0
+  no-param-reassign: 
+    - 2
+    - props: false
+  no-shadow: 0
+  no-trailing-spaces: 2
+  no-underscore-dangle: 2
+  no-multiple-empty-lines: 
+    - 2
+    - max: 1
+  no-unexpected-multiline: 2
+  no-var: 2
+  no-console: 0
