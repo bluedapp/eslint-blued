@@ -1,3 +1,7 @@
+## 0.0.5
+
+fix `blued/react` error.
+
 ## 0.0.4
 
 ### Add
