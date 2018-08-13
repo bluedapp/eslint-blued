@@ -47,34 +47,34 @@ rules:
   react/sort-comp: 
     - 2
     - groups: 
-      lifecycle: 
-        - displayName
-        - propTypes
-        - contextTypes
-        - childContextTypes
-        - mixins
-        - statics
-        - defaultProps
-        - constructor
-        - getDefaultProps
-        - state
-        - columns
-        - expandedRowRender
-        - getInitialState
-        - getChildContext
-        - getDerivedStateFromProps
-        - componentWillMount
-        - UNSAFE_componentWillMount
-        - componentDidMount
-        - componentWillReceiveProps
-        - UNSAFE_componentWillReceiveProps
-        - shouldComponentUpdate
-        - componentWillUpdate
-        - UNSAFE_componentWillUpdate
-        - getSnapshotBeforeUpdate
-        - componentDidUpdate
-        - componentDidCatch
-        - componentWillUnmount
+        lifecycle: 
+          - displayName
+          - propTypes
+          - contextTypes
+          - childContextTypes
+          - mixins
+          - statics
+          - defaultProps
+          - constructor
+          - getDefaultProps
+          - state
+          - columns
+          - expandedRowRender
+          - getInitialState
+          - getChildContext
+          - getDerivedStateFromProps
+          - componentWillMount
+          - UNSAFE_componentWillMount
+          - componentDidMount
+          - componentWillReceiveProps
+          - UNSAFE_componentWillReceiveProps
+          - shouldComponentUpdate
+          - componentWillUpdate
+          - UNSAFE_componentWillUpdate
+          - getSnapshotBeforeUpdate
+          - componentDidUpdate
+          - componentDidCatch
+          - componentWillUnmount
   template-curly-spacing: 
     - 2
     - never

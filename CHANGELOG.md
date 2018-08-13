@@ -1,3 +1,7 @@
+## 0.0.6
+
+fix rule indent in `/rules/.react`.
+
 ## 0.0.5
 
 fix `blued/react` error.
@@ -7,7 +11,7 @@ fix `blued/react` error.
 ### Add
 
 ```diff
-# rule/.typescript
+# rules/.typescript
 +typescript/member-delimiter-style:
 +  - error
 +  - delimiter: none
@@ -17,7 +21,7 @@ fix `blued/react` error.
 ### Delete
 
 ```diff
-# rule/.import
+# rules/.import
 -import/no-unresolved:
 -  - 2
 -  - ignore:
@@ -31,7 +35,7 @@ fix `blued/react` error.
 ### Modify
 
 ```diff
-# rule/.common
+# rules/.common
 max-len: 
   - 2  
 - - code: 80
