@@ -56,7 +56,7 @@ extends: blued
 
 Config|Description
 :-:|:-:
-`blued`|基础的规则，适用于所有项目
-`blued/react`|基于基础规则，针对`react`/`jsx`所添加的一些增强规则
-`blued/typescript`|基于基础规则，针对`TypeScript`所添加的一些增强规则
+[blued](https://www.npmjs.com/package/eslint-config-blued)|基础的规则，适用于所有项目
+[blued-react](https://www.npmjs.com/package/eslint-config-blued-react)|基于基础规则，针对`react`/`jsx`所添加的一些增强规则
+[blued-typescript](https://www.npmjs.com/package/eslint-config-blued-typescript)|基于基础规则，针对`TypeScript`所添加的一些增强规则
 
