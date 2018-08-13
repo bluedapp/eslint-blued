@@ -6,6 +6,6 @@ module.exports = {
   ].map(require.resolve),
   "parser": "babel-eslint",
   "plugins": [
-    "typescript"
+    "react"
   ]
 }
