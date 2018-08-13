@@ -1,8 +1,8 @@
 module.exports = {
   "extends": [
     "eslint-config-airbnb",
-    "./rules/.common",
-    "./rules/.browser"
+    "./rules/common.yml",
+    "./rules/browser.yml"
   ].map(require.resolve),
   "env": {
     "browser": true,

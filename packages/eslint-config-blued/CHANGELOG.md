@@ -1,3 +1,11 @@
+## 0.0.7
+
+rename `.<rules>` to `<rules>.yml`.
+
+## 0.0.7
+
+refactor, split to `blued`、`blued-react`、`blued-typescript`.
+
 ## 0.0.6
 
 fix rule indent in `/rules/.react`.

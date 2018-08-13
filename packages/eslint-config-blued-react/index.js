@@ -1,8 +1,8 @@
 module.exports = {
   "extends": [
-    ".",
-    "./rules/.import",
-    "./rules/.react"
+    "eslint-config-blued",
+    "./rules/import.yml",
+    "./rules/react.yml"
   ].map(require.resolve),
   "parser": "babel-eslint",
   "plugins": [
