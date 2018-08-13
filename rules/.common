@@ -1,7 +1,9 @@
 rules:
   max-len: 
     - 2
-    - code: 80
+    - code: 120
+      ignoreStrings: true
+      ignoreTemplateLiterals: true
   consistent-return: 0
   semi: 
     - 2

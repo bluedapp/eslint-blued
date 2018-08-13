@@ -5,7 +5,10 @@ rules:
   typescript/class-name-casing: error
   typescript/explicit-member-accessibility: 'off'
   typescript/interface-name-prefix: 'off'
-  typescript/member-delimiter-style: error
+  typescript/member-delimiter-style:
+    - error
+    - delimiter: none
+      ignoreSingleLine: true
   typescript/menber-naming: 'off'
   typescript/member-ordering: error
   typescript/no-angle-bracket-type-assertion: 'off'

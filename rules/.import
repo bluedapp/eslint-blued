@@ -6,11 +6,3 @@ rules:
       packages: always
   import/named: 0
   import/no-extraneous-dependencies: 0
-  import/no-unresolved:
-    - 2
-    - ignore:
-      - ^components/*
-      - ^constants/*
-      - ^containers/*
-      - ^redux/*
-      - ^utils/*
