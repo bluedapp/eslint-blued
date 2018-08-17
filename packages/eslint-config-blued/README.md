@@ -4,18 +4,7 @@
 
 > Blued大前端编码规范，基于[airbnb](https://github.com/airbnb/javascript)所进行的一些符合日常开发习惯的客制化  
 
-## 背景
-
-随着公司的快速发展，团队也越来越壮大，小伙伴们越来越多了。  
-但是每个人的经历不同可能导致代码风格上多多少少也会有些区别。  
-为了大家日常合作开发，交接任务变得更轻松，一个用来限制代码风格的插件就变得很关键。  
-而自己从零开始去编写ESLint的配置文件未免太过繁琐，所以就采用了最近比较火的[airbnb](https://github.com/airbnb/javascript)的编码规范作为基础。  
-在此之上，结合着大家日常开发时的一些习惯进行二次配置。
-
-—— 以上
-
 ## 使用方法
-
 
 在`npm5.x`以上的版本，可以有快捷的方式来安装所有的依赖：
 
@@ -50,7 +39,6 @@ extends: blued
 ```
 
 *上述操作步骤说明修改于[airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb#usage*
-
 
 ## 所有可选的配置
 
