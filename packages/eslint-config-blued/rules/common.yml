@@ -73,3 +73,7 @@ rules:
   no-unused-vars:
     - 2
     - argsIgnorePattern: '^_'
+  no-use-before-define:
+    - 2
+    - functions: false
+      classes: false

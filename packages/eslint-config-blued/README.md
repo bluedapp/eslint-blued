@@ -38,7 +38,7 @@ install-peerdeps --dev eslint-config-blued
 extends: blued
 ```
 
-*上述操作步骤说明修改于[airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb#usage*
+*上述操作步骤说明修改于[airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb#usage)*
 
 ## 所有可选的配置
 

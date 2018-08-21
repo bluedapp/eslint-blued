@@ -1,3 +1,15 @@
+## 0.0.15
+
+### Add
+
+```diff
+# rules/common.yml
++no-use-before-define:
++  - 2
++  - functions: false
++    classes: false
+```
+
 ## 0.0.13
 
 remove `airbnb`, use `airbnb-base`.
