@@ -16,15 +16,11 @@
   "author": "Jiasm (mailto:jiashunming@blued.com)",
   "dependencies": {
     "eslint": "^4.19.1 || ^5.3.0",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint-config-airbnb-base": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0"
   },
   "peerDependencies": {
     "eslint": "^4.19.1 || ^5.3.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint-plugin-import": "^2.13.0"
   }
 }

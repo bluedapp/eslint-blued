@@ -1,4 +1,8 @@
-## 0.0.7
+## 0.0.13
+
+remove `airbnb`, use `airbnb-base`.
+
+## 0.0.12
 
 rename `.<rules>` to `<rules>.yml`.
 
