@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blued",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Blued大前端编码规范，基于[airbnb](https://github.com/airbnb/javascript)所进行的一些符合日常开发习惯的客制化",
   "main": "index.js",
   "repository": {

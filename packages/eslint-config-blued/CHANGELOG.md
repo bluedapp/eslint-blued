@@ -1,3 +1,14 @@
+## 0.0.16
+
+ignore `for-in` error.
+
+### Add
+
+```diff
++no-restricted-syntax: 0
++guard-for-in: 0
+```
+
 ## 0.0.15
 
 ### Add
