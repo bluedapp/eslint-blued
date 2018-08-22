@@ -5,6 +5,7 @@ ignore `for-in` error.
 ### Add
 
 ```diff
+# rules/common.yml
 +no-restricted-syntax: 0
 +guard-for-in: 0
 ```
