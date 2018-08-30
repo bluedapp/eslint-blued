@@ -6,3 +6,5 @@ rules:
       packages: always
   import/named: 0
   import/no-extraneous-dependencies: 0
+  # 关闭 禁止动态引用
+  import/no-dynamic-require: 0

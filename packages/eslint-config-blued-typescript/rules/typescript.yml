@@ -34,3 +34,13 @@ rules:
   no-unused-vars: 0
   import/prefer-default-export: 0
   no-dupe-class-members: 0
+  # 启用 设置jsx所支持的文件后缀，添加ts tsx相关的
+  react/jsx-filename-extension:
+      - 2
+      - extensions:
+        - .js
+        - .jsx
+        - .ts
+        - .tsx
+  # 关闭 class 成员属性、方法定义的顺序
+  react/sort-comp: 0

@@ -13,3 +13,14 @@ npx install-peerdeps --dev eslint-config-blued-typescript
 ```yml
 extends: blued-typescript
 ```
+
+## 注意事项
+
+如果同时使用`react`和`typeScript`，必须要保证在`extends`中`typescript`在`react`的下边：  
+_因为parser是会覆盖的，而不是共存，ts-parser相对于typescript比babel的支持度更高一些_  
+
+```yaml
+exnteds:
+  - blued-react
+  - blued-typescript
+```

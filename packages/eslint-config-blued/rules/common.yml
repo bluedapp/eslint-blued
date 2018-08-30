@@ -58,9 +58,6 @@ rules:
   no-extra-boolean-cast: 0
   no-lone-blocks: 2
   no-nested-ternary: 0
-  no-param-reassign: 
-    - 2
-    - props: false
   no-shadow: 0
   no-trailing-spaces: 2
   no-underscore-dangle: 2
@@ -79,3 +76,21 @@ rules:
       classes: false
   no-restricted-syntax: 0
   guard-for-in: 0
+  # 关闭 必须要在全局环境使用require
+  global-require: 0
+  # 关闭 禁止函数参数的重新赋值
+  no-param-reassign: 0
+  no-plusplus:
+    - 2
+    - allowForLoopAfterthoughts: true
+  # 启用 过滤依赖的检查，必须存在于dependencies中，而不是devDependencies
+  #     同时忽略以下四种文件、目录
+  import/no-extraneous-dependencies:
+    - 2
+    - devDependencies:
+      - "**/*.test.js"
+      - "**/*.spec.js"
+      - "**/webpack*"
+      - "**/webpack/*"
+  # 关闭 禁止在循环中使用await / yield （部分特殊的逻辑可能确实会需要用到串行）
+  no-await-in-loop: 0

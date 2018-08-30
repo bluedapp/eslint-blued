@@ -79,3 +79,13 @@ rules:
   template-curly-spacing: 
     - 2
     - never
+  # 关闭 click事件必须绑定在onKeyXXX上
+  click-events-have-key-events: 0
+  # 关闭 普通标签不允许产生交互
+  no-static-element-interactions: 0
+  # 关闭 禁止使用不被推荐的html直接赋值
+  no-danger: 0
+  # 启用 在允许的情况下尽量使用函数组件（忽略继承自PureComponents的class）
+  react/prefer-stateless-function: 
+    - 2
+    - ignorePureComponents: true

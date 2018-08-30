@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blued-typescript",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Blued大前端编码规范，TypeScript版本，基于[airbnb](https://github.com/airbnb/javascript)所进行的一些符合日常开发习惯的客制化",
   "main": "index.js",
   "repository": {
