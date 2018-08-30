@@ -1,3 +1,16 @@
+## 0.0.17
+
+disabled `global-require`、`no-param-reassign`、`no-await-in-loop`.  
+add `no-plusplus` with `allowForLoopAfterthoughts`.  
+add `import/no-extraneous-dependencies` with `devDependencies`:
+```yaml
+devDependencies:
+- "**/*.test.js"
+- "**/*.spec.js"
+- "**/webpack*"
+- "**/webpack/*"
+```
+
 ## 0.0.16
 
 ignore `for-in` error.
