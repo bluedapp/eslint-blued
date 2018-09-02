@@ -22,5 +22,5 @@ _因为parser是会覆盖的，而不是共存，ts-parser相对于typescript比
 ```yaml
 exnteds:
   - blued-react
-  - blued-typescript
+  - blued-typescript/react # 指定React版本，会完全继承Typescript的所有规则，并覆盖一些React规则
 ```
