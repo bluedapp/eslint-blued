@@ -94,3 +94,5 @@ rules:
       - "**/webpack/*"
   # 关闭 禁止在循环中使用await / yield （部分特殊的逻辑可能确实会需要用到串行）
   no-await-in-loop: 0
+  # 关闭 禁止在循环中使用函数，函数节流是很重要
+  no-loop-func: 0
