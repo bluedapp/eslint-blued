@@ -15,19 +15,20 @@
   "homepage": "https://github.com/bluedapp/eslint-config-blued#readme",
   "author": "Jiasm (mailto:jiashunming@blued.com)",
   "dependencies": {
-    "eslint": "^4.19.1 || ^5.3.0",
+    "@typescript-eslint/parser": "^1.3.0",
+    "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-blued": "^0.0.18",
-    "eslint-plugin-import": "^2.13.0",
     "eslint-import-resolver-typescript": "^1.0.2",
-    "eslint-plugin-typescript": "^0.12.0",
-    "typescript-eslint-parser": "^18.0.0"
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "typescript": "^3.3.3"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1 || ^5.3.0",
+    "eslint": "^5.14.1",
     "eslint-plugin-import": "^2.13.0",
     "eslint-import-resolver-typescript": "^1.0.2",
     "eslint-plugin-typescript": "^0.12.0",
-    "typescript-eslint-parser": "^18.0.0"
+    "@typescript-eslint/parser": "^1.3.0"
   }
 }
