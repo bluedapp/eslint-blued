@@ -1,0 +1,16 @@
+{
+	"rules": {
+		"react/jsx-filename-extension": [
+			2,
+			{
+				"extensions": [
+					".js",
+					".jsx",
+					".ts",
+					".tsx"
+				]
+			}
+		],
+		"react/sort-comp": 0
+	}
+}

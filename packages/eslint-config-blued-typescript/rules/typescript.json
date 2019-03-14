@@ -1,0 +1,41 @@
+{
+	"rules": {
+		"no-undef": "off",
+		"spaced-comment": "off",
+		"@typescript-eslint/adjacent-overload-signatures": "off",
+		"@typescript-eslint/class-name-casing": "error",
+		"@typescript-eslint/explicit-member-accessibility": "off",
+		"@typescript-eslint/interface-name-prefix": "off",
+		"@typescript-eslint/member-delimiter-style": "error",
+		"@typescript-eslint/menber-naming": "off",
+		"@typescript-eslint/member-ordering": "error",
+		"@typescript-eslint/no-angle-bracket-type-assertion": "off",
+		"@typescript-eslint/no-array-constructor": "error",
+		"@typescript-eslint/no-empty-interface": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-namespace": "error",
+		"@typescript-eslint/no-parameter-properties": "off",
+		"@typescript-eslint/no-triple-slash-reference": "off",
+		"@typescript-eslint/no-type-alias": "off",
+		"@typescript-eslint/no-unused-vars": "error",
+		"@typescript-eslint/no-use-before-define": "off",
+		"@typescript-eslint/prefer-namespace-keyword": "off",
+		"@typescript-eslint/type-annotation-spacing": "error",
+		"import/no-unresolved": "off",
+		"@typescript-eslint/indent": [
+			0,
+			2,
+			{
+				"FunctionDeclaration": {
+					"parameters": "off"
+				},
+				"FunctionExpression": {
+					"parameters": "off"
+				}
+			}
+		],
+		"no-unused-vars": 0,
+		"import/prefer-default-export": 0,
+		"no-dupe-class-members": 0
+	}
+}

@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
     ".",
-    "./rules/typescript-react.yml"
+    "./rules/typescript-react.json"
   ].map(require.resolve),
 }
