@@ -1,8 +1,8 @@
 module.exports = {
-  "extends": [
+  "extends": ['plugin:@typescript-eslint/recommended'].concat([
     "eslint-config-blued",
     "./rules/typescript.json"
-  ].map(require.resolve).concat('plugin:@typescript-eslint/recommended'),
+  ].map(require.resolve)),
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "@typescript-eslint"
