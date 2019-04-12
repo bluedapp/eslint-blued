@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blued-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blued大前端编码规范，TypeScript版本，基于[airbnb](https://github.com/airbnb/javascript)所进行的一些符合日常开发习惯的客制化",
   "main": "index.js",
   "repository": {
@@ -17,18 +17,16 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.6.0",
     "@typescript-eslint/parser": "^1.6.0",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-blued": "^1.0.0",
     "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.16.0",
     "typescript": "^3.4.3"
   },
   "peerDependencies": {
     "eslint": "^5.16.0",
     "@typescript-eslint/eslint-plugin": "^1.6.0",
-    "eslint-plugin-import": "^2.16.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-blued": "^1.0.0",
     "eslint-plugin-import": "^2.16.0"
   }
 }
