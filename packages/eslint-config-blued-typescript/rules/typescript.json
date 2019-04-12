@@ -44,6 +44,8 @@
 				"properties": "never",
 				"ignoreDestructuring": true
 			}
-		]
+		],
+		"no-useless-constructor": "off",
+		"no-empty-function": "off"
 	}
 }
