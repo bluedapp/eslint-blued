@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blued-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Blued大前端编码规范，React版本，基于[airbnb](https://github.com/airbnb/javascript)所进行的一些符合日常开发习惯的客制化",
   "main": "index.js",
   "repository": {
@@ -15,20 +15,20 @@
   "homepage": "https://github.com/bluedapp/eslint-config-blued#readme",
   "author": "Jiasm (mailto:jiashunming@blued.com)",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.2",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-blued": "^1.0.0",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-config-blued": "^1.0.1",
+    "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.13.0"
   },
   "peerDependencies": {
     "eslint": "^5.16.0",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "babel-eslint": "^10.0.1"
+    "eslint-plugin-react": "^7.13.0",
+    "babel-eslint": "^10.0.2"
   }
 }
