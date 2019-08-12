@@ -8,6 +8,7 @@ module.exports = {
   ].map(require.resolve),
   "parser": "babel-eslint",
   "plugins": [
-    "react"
+    "react",
+    "react-hooks"
   ]
 }
