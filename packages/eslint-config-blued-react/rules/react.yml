@@ -79,6 +79,8 @@ rules:
   template-curly-spacing: 
     - 2
     - never
+  react-hooks/rules-of-hooks: error
+  react-hooks/exhaustive-deps: warn
   # 关闭 click事件必须绑定在onKeyXXX上
   click-events-have-key-events: 0
   # 关闭 普通标签不允许产生交互
