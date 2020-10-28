@@ -1,11 +1,11 @@
 rules:
-  max-len: 
+  max-len:
     - 2
     - code: 120
       ignoreStrings: true
       ignoreTemplateLiterals: true
   consistent-return: 0
-  semi: 
+  semi:
     - 2
     - never
   linebreak-style:
@@ -34,7 +34,7 @@ rules:
   prefer-const:
     - 2
     - destructuring: all
-  eqeqeq: 
+  eqeqeq:
     - 2
     - allow-null
   array-callback-return: 2
@@ -61,7 +61,7 @@ rules:
   no-shadow: 0
   no-trailing-spaces: 2
   no-underscore-dangle: 2
-  no-multiple-empty-lines: 
+  no-multiple-empty-lines:
     - 2
     - max: 1
   no-unexpected-multiline: 2
@@ -92,7 +92,27 @@ rules:
       - "**/*.spec.js"
       - "**/webpack*"
       - "**/webpack/*"
+  # 不需要添加后缀
+  import/extensions:
+    - 2
+    - ignorePackages
+    -
+      ts: never
+      js: never
+      json: never
+      tsx: never
+      jsx: never
   # 关闭 禁止在循环中使用await / yield （部分特殊的逻辑可能确实会需要用到串行）
   no-await-in-loop: 0
   # 关闭 禁止在循环中使用函数，函数节流是很重要
   no-loop-func: 0
+
+settings:
+  import/resolver:
+    node:
+      extensions:
+        - .ts
+        - .js
+        - .json
+        - .tsx
+        - .jsx
